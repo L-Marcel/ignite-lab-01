@@ -6,6 +6,8 @@ const Home: NextPage = () => null;
 export const getServerSideProps: GetServerSideProps = async({ req, res }) => {
   const session = getSession(req, res);
 
+  console.log(session?.accessToken);
+
   if(!session) {
     return {
       redirect: {
