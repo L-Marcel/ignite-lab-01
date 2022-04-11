@@ -19,12 +19,6 @@ export class StudentResolver {
     return this.studentsService.listAllStudents();
   }
 
-  @Query(() => Student)
-  @UseGuards(AuthorizationGuard)
-  me(@CurrentUser() user: AuthUser) {
-    return this.studentsService.getStudentByAuthId(user.sub);
-  }
-
   @ResolveField()
   enrollments(@Parent() student: Student) {
     return this.enrollmentsService.listStudentById(student.id);
