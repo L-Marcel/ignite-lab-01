@@ -1,5 +1,6 @@
 {
   "title": "Ignite Lab: 01",
+  "translatedDescription": "Código da primeira edição do ignite lab. Um aplicativo feito com Next.js, GraphQL, Apollo, Tailwind, Kafka e Docker para gerenciar uma plataforma de cursos.",
   "technologies": [
     "Next.js",
     "GraphQL",
