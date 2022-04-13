@@ -1,14 +1,14 @@
 {
   "title": "Ignite Lab: 01",
   "technologies": [
+    "Next.js",
+    "GraphQL",
     "JavaScript",
     "TypeScript",
-    "Next.js",
     "HTML",
     "CSS",
     "Kafka",
     "Docker",
-    "GraphQL",
     "Tailwind",
     "Apollo"
   ]
