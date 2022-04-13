@@ -1,3 +1,15 @@
 {
-  "title": "Ignite Lab: 01"
+  "title": "Ignite Lab: 01",
+  "tecnologies": [
+    "JavaScript",
+    "TypeScript",
+    "Next.js",
+    "HTML",
+    "CSS",
+    "Kafka",
+    "Docker",
+    "GraphQL",
+    "Tailwind",
+    "Apollo"
+  ]
 }  
